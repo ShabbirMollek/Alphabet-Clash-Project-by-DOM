@@ -31,16 +31,16 @@
 
                 
                  <!--Home Screen-->
-                <section class="home min-h-screen flex flex-col justify-center items-center gap-8 hidden">
+                <section id="home-screen" class= "min-h-screen flex flex-col justify-center items-center gap-8">
                                 <h1 class="text-[130px] text-blue-800 font-semibold uppercase ">Alphabet Arena</h1>
                                 <p class="text-4xl text-yellow-50">Are You Expert on Typing , Lets Starts</p>
-                                <button class="btn btn-outline btn-primary mt-6">Play Now</button>
+                                <button onclick="play()" class="btn btn-outline btn-primary mt-6">Play Now</button>
 
                 </section>
  
                 <!--Play Ground-->
   
-                <section class="play-ground hidden">
+                <section id="play-ground" class="hidden">
                  <div class="flex flex-col justify-center items-center gap-32">
                          <!--Screen-->
                          <div>
@@ -113,7 +113,7 @@
  
                 <!--Play Ground End -->
  
-                <section class="score flex flex-col justify-center items-center min-h-screen">
+                <section class="score flex flex-col justify-center items-center min-h-screen hidden">
 
                   <div class="bg-[#FFFFFF33] text-center space-y-5 p-7 rounded-xl">
                     <h1 class="text-8xl font-bold text-blue-800"> Score:<span>14</span> 
@@ -123,6 +123,7 @@
                   </div>
  
                 </section>
+
 
        </main>
 
